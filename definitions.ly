@@ -669,7 +669,24 @@ tocLabelLong = #(define-music-function
 
 
 tempoFirst = \tempoMarkup "Allegro"
+tempoSecond = \tempoMarkup "Un poco lento"
+	tempoSecondB = \tempoMarkup "Adagio"
+	tempoSecondC = \tempoMarkup "Poco lento"
 
+twotwotime = {
+	\overrideTimeSignatureSettings
+		2/2
+		1/4
+		#'(4)
+		#'(
+			(end .
+				(
+					((1 . 16) . (4 4 4 4))
+					((1 . 8) . (4 4))
+				)
+			)
+		)
+	}
 
 \include "notes/ob1.ly"
 \include "notes/ob2.ly"
