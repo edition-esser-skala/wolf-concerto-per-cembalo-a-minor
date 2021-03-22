@@ -23,26 +23,26 @@
 	}
 
 	system-system-spacing =
-    #'((basic-distance . 20)
-       (minimum-distance . 20)
+    #'((basic-distance . 25)
+       (minimum-distance . 25)
        (padding . -100)
        (stretchability . 0))
 
 	top-system-spacing =
-    #'((basic-distance . 20)
-       (minimum-distance . 20)
+    #'((basic-distance . 10)
+       (minimum-distance . 10)
        (padding . -100)
        (stretchability . 0))
 
 	top-markup-spacing =
-    #'((basic-distance . 5)
-       (minimum-distance . 5)
+    #'((basic-distance . 0)
+       (minimum-distance . 0)
        (padding . -100)
        (stretchability . 0))
 
 	markup-system-spacing =
-    #'((basic-distance . 15)
-       (minimum-distance . 15)
+    #'((basic-distance . 10)
+       (minimum-distance . 10)
        (padding . -100)
        (stretchability . 0))
 
@@ -86,6 +86,8 @@
 		\beam #2.0 #0.5 #0.48
 		\raise #1.0 \beam #2.0 #0.5 #0.48
 	}
+
+	systems-per-page = #2
 }
 
 partTitle = #(define-scheme-function
@@ -458,7 +460,7 @@ bc =
 	\context {
 		\Score
 		\compressEmptyMeasures
-		\override BarNumber.break-visibility = #'#(#f #t #t)
+		% \override BarNumber.break-visibility = #'#(#f #t #t)
 	}
 	\context {
 		\StaffGroup

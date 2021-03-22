@@ -122,6 +122,16 @@ FirstOboeII = {
 	}
 }
 
+SecondOboeII = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 3/4 \tempoSecond
+		\override MultiMeasureRest.minimum-length = #40
+		R2.*88
+		R2.\fermata \bar "|." %89 finis
+	}
+}
+
 ThirdOboeII = {
 	\relative c' {
 		\clef treble

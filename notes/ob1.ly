@@ -19,15 +19,15 @@ FirstOboeI = {
 		c h c h %25
 		c d2 d8. h16
 		c4 e c e
-		a, c a c
+		\pao a, c \pao a c
 		f, f'8.(\trill e32 d) c8.(\trill h32 a) h4\trill
 		a r r2 %30
 		R1
 		e'4\fE f c h
-		a r r2
+		\pao a r r2
 		R1
 		a'4\fE f c h %35
-		a r r2
+		\pao a r r2
 		R1
 		d2\fE r
 		R1
@@ -46,9 +46,9 @@ FirstOboeI = {
 		R1*18 %79
 		r2 r4 gis,8.\fE gis16 %80
 		a4 h c cis
-		dis, dis' e h
+		\pao dis, dis' e h
 		c a' \appoggiatura g fis2\trill
-		e4 g2 g4~
+		\pao e4 g2 g4~
 		g g g g %85
 		c8. e,16 g8.(\trill fis32 e) h4 fis'\trill
 		e r r2
@@ -118,7 +118,17 @@ FirstOboeI = {
 		a r r2
 		R1
 		e'4\ffE f c h\trill
-		a r r2\fermata \bar "|." %205 finis
+		\pao a r r2\fermata \bar "|." %205 finis
+	}
+}
+
+SecondOboeI = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 3/4 \tempoSecond
+		\override MultiMeasureRest.minimum-length = #40
+		R2.*88
+		R2.\fermata \bar "|." %89 finis
 	}
 }
 
@@ -126,8 +136,8 @@ ThirdOboeI = {
 	\relative c' {
 		\clef treble
 		\key a \minor \time 6/8 \tempoThird
-		\partial 8 e8\fE
-		c'8 r r d r r
+		\partial 8 \pa e8\fE
+		c'8 \pd r r d r r
 		e r r f r r
 		e4. f
 		h,4 gis16 e e'4 e,8
@@ -139,7 +149,7 @@ ThirdOboeI = {
 		r4 r8 r4 c8\ffE
 		c'4. c
 		c d,4~ d16.( e64 f)
-		e8 f g a16 g f e d c
+		\pa e8 f g a16 g f e d c \pd
 		h c d c h a g4 r8 %20
 		R2.*18 %38
 		d'4.\pp es
@@ -157,8 +167,8 @@ ThirdOboeI = {
 		R2.*24 %76
 		f8\ff r r g r r
 		a r r b r r
-		a4. b
-		e,4 r8 a4 r8 %80
+		a4. \pa b
+		e,4 r8 a4 \pd r8 %80
 		f8 r r g r r
 		a r r b r r
 		a4. b8 a16 g f e
@@ -182,8 +192,8 @@ ThirdOboeI = {
 		d4-! r8 r4 r8 r2*3/2
 		r4 r8 r4 gis,!8 a4-! r8 h4-! r8
 		cis4-! r8 r4 r8 r2*3/2
-		r4 r8 r4 e,8 fis4. ais,
-		h cis h8 d fis h4 a!8 %150
+		r4 r8 r4 e,8 fis4. \pa ais,
+		h cis h8 d fis h4 \pd a!8 %150
 		a4.( gis8) r r r2*3/2
 		R1.
 		r4 r8 r4 e,8\ffE cis'4. d
