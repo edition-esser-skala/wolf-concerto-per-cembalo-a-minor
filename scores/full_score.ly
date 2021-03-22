@@ -17,7 +17,7 @@
 			<<
 			\new StaffGroup \with { \smallGroupDistance } <<
 				\new Staff <<
-					\set Staff.instrumentName = \markup \center-column { "Oboe" "1, 2" }
+					\set Staff.instrumentName = \markup \center-column { "Oboe" "I, II" }
 					\set Staff.soloText = \markup \remark \medium "ob 1"
 					\partCombine \FirstOboeI \FirstOboeII
 				>>
