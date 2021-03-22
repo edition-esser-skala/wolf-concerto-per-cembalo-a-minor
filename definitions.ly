@@ -672,6 +672,8 @@ tempoFirst = \tempoMarkup "Allegro"
 tempoSecond = \tempoMarkup "Un poco lento"
 	tempoSecondB = \tempoMarkup "Adagio"
 	tempoSecondC = \tempoMarkup "Poco lento"
+tempoThird = \tempoMarkup "Allegro"
+	tempoThirdB = \tempoMarkup "Presto"
 
 twotwotime = {
 	\overrideTimeSignatureSettings

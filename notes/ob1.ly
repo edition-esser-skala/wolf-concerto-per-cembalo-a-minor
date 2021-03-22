@@ -121,3 +121,80 @@ FirstOboeI = {
 		a r r2\fermata \bar "|." %205 finis
 	}
 }
+
+ThirdOboeI = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 6/8 \tempoThird
+		\partial 8 e8\fE
+		c'8 r r d r r
+		e r r f r r
+		e4. f
+		h,4 gis16 e e'4 e,8
+		c' r r d r r %5
+		e r r f r r
+		e4. f8 e16 d c h
+		a8 e' c a4 r8
+		R2.*7 %15
+		r4 r8 r4 c8\ffE
+		c'4. c
+		c d,4~ d16.( e64 f)
+		e8 f g a16 g f e d c
+		h c d c h a g4 r8 %20
+		R2.*18 %38
+		d'4.\pp es
+		d8 r r r4\fermata g,8\ff %40
+		c4. d
+		e! f
+		g a8 g16 f e d
+		c8 g e c4 r8
+		R2.*3 %47
+		r4 r8 r4 e8\ffE
+		c' r r d r r
+		e r r f r r %50
+		e4. f8 e16 d c h
+		a8 e' c a4 r8
+		R2.*24 %76
+		f8\ff r r g r r
+		a r r b r r
+		a4. b
+		e,4 r8 a4 r8 %80
+		f8 r r g r r
+		a r r b r r
+		a4. b8 a16 g f e
+		d8 f a d,4 r8
+		R2.*19 %103
+		r4 r8 r4 e8\ffE
+		c' r r d r r %105
+		e r r f r r
+		e4. f8 e16 d c h \noBreak
+		a8 e' c a4 r8 \bar "||"
+		\key a \major \time 12/8 \tempoThirdB \newSpacingSection
+			\partial 2. r2*3/2 \noBreak
+		R1.*3 %112
+		r4 r8 r4 e8\ffE cis'4. d
+		e fis gis a
+		h~ h4 d,8 cis4. d %115
+		e fis e8 d cis h a gis
+		a4 r8 r4 r8 r2*3/2
+		R1.*27 %144
+		r4 r8 r4 fis'8\ffE h4-! r8 cis4-! r8 %145
+		d4-! r8 r4 r8 r2*3/2
+		r4 r8 r4 gis,!8 a4-! r8 h4-! r8
+		cis4-! r8 r4 r8 r2*3/2
+		r4 r8 r4 e,8 fis4. ais,
+		h cis h8 d fis h4 a!8 %150
+		a4.( gis8) r r r2*3/2
+		R1.
+		r4 r8 r4 e,8\ffE cis'4. d
+		e fis e8 d cis h a gis
+		a4 r8 r4 r8 r2*3/2 %155
+		R1.*4
+		cis2.\ffE a' %160
+		a4 r8 r4 r8 r2*3/2
+		R1.*3
+		e,4\ffE r8 fis4 r8 gis4 r8 a4 r8 %165
+		h cis d cis h a d,4-! r8 gis'4-! r8
+		a4-! r8 r4 r8 r2*3/2\fermata \bar "|." %167 FINIS
+	}
+}

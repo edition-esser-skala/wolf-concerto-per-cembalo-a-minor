@@ -287,3 +287,143 @@ SecondViola = {
 		a2.\fermata \bar "|." %89 finis
 	}
 }
+
+ThirdViola = {
+	\relative c' {
+		\clef alto
+		\key a \minor \time 6/8 \tempoThird
+		\partial 8 r8
+		a'8\fE r r a r r
+		a r r a r r
+		a, c a a' a f
+		h,4 r8 e16 f e d c h
+		a8 r r a r r %5
+		a r r a r r
+		a c e d16 f e d c h
+		c8 e c a4 r8
+		R2.*8 %16
+		r8 e'\ff e f^\critnote f a
+		g f e d c h
+		c4.~ c8 a' a
+		d,16 c h c d c h4 r8 %20
+		R2.*6 %26
+		d4~\f-! d2~\p
+		d2.
+		c
+		h %30
+		c~
+		c~
+		c4 r8 r4 r8
+		R2.*2 %35
+		g2.~\pp
+		g~
+		g8 h!-! c-! d-! h-! c-!
+		<h d>4. <c es>
+		<h d>8 r r r4\fermata r8 %40
+		g'8\ff f e! d c h
+		c g g' c, c' c
+		c e, c c16 a' g f e d
+		e8 g e c4 r8
+		R2.*3 %47
+		r4 r8 e16\ff f e d c h
+		a8 r r a' r r
+		a r r a r r %50
+		a, c e d16 f e d c h
+		c8 e c a4 r8
+		a2.\ppE
+		g
+		f8 a c e, g c %55
+		f, c' b a c f
+		a,2.
+		g
+		f8 r r r4 r8
+		R2. %60
+		f2.~
+		f4.~ f8 r16 b-!\f a-! g-!
+		d2.~\pE
+		d4.~ d8 r16 a'-!\f g-! f-!
+		c'4.~\p c8 r16 c-!\f b-! a-! %65
+		b4-! r8 c4-! r8
+		R2.*2
+		a2.\pp
+		g %70
+		f8 a c e, g c
+		f, c' b a c f
+		a,2.
+		g
+		f8 r r r4 r8 %75
+		R2.
+		d'8\ff r r d r r
+		d r r d r r
+		d a f' d e b
+		a4 r8 a'16 b a g f e %80
+		d8 r r d r r
+		d r r d r r
+		d f a g16 b, a g f e
+		d8 f a d,4 r8
+		R2.*6 %90
+		r4 r8 dis'4.\pE
+		e2.~
+		e
+		e,~
+		e~ %95
+		e
+		e8 gis a h gis a
+		h gis h gis gis h
+		gis4 r8 r4 r8
+		R2. %100
+		e'8\pp r r d r r
+		c r r f r r
+		R2.
+		r4 r8 e16\ff f e d c h
+		a8 r r a' r r %105
+		a r r a r r
+		a, c a d16 f e d c h \noBreak
+		c8 e c a4 r8 \bar "|"
+		\key a \major \time 12/8 \tempoThirdB \newSpacingSection
+			\partial 2. r2*3/2 \noBreak
+		R1.*3 %112
+		r2*3/2 a4.\ff h
+		cis d e fis
+		gis2. a,4. h %115
+		cis d8 e fis cis d e d cis h
+		cis e cis a4 r8 a'4\p r8 a4 r8
+		gis4 r8 r4 r8 gis4 r8 gis4 r8
+		fis4 r8 r4 r8 fis4 r8 fis4 r8
+		e4 r8 gis4 r8 a4. ais %120
+		h4 r8 r4 r8 r2*3/2
+		R1.*7 %128
+		r2*3/2 r4 r8 e,4.\p
+		fis2.~ fis~ %130
+		fis4 r8 r4 r8 cis4.~\f cis\p
+		cis2.~ cis~
+		cis4 r8 r4 r8 d2.~
+		d4 r8 r4 r8 e2.~
+		e4 r8 r4 r8 r4 r8 a4-! r8 %135
+		a4-! r8 a4-! r8 g4-! r8 h4-! r8
+		e,4 r8 r4 r8 r2*3/2
+		R1.*7 %144
+		r2*3/2 fis4-!\ff r8 fis4-! r8 %145
+		fis4-! r8 r4 r8 r2*3/2
+		r4 r8 r4 e8 e4-! r8 e4-! r8
+		e4-! r8 r4 r8 r2*3/2
+		r4 r8 r4 a8 a4. ais8 h cis
+		fis,4. fis fis fis %150
+		h,~ h4 r8 r2*3/2
+		R1.
+		r2*3/2 a4.\ff h
+		cis d8 e fis cis d e d cis h
+		cis4 r8 r4 r8 r2*3/2 %155
+		r4 r8 a'4.\p fis e
+		e4 r8 r4 r8 r2*3/2
+		r4 r8 a4. fis e
+		e4 r8 r4 r8 r2*3/2
+		e8\ff e e e e e fis fis fis fis fis fis %160
+		e4 r8 r4 r8 r2*3/2
+		R1.*2
+		a,8\ff h cis h cis d cis d e d e fis
+		e fis gis fis gis a gis a h a h cis %165
+		h cis d cis h a d,4-! r8 <e h'>4-! r8
+		<e a>4-! r8 r4 r8 r2*3/2\fermata \bar "|." %167 FINIS
+	}
+}

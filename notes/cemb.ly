@@ -652,20 +652,389 @@ SecondBassFigures = \figuremode {
 	r %89 finis
 }
 
-% CembaloR = {
-% 	\relative c' {
-% 		\clef treble
-%
-% 	}
-% }
-%
-% CembaloL = {
-% 	\relative c {
-% 		\clef bass
-%
-% 	}
-% }
-%
-% BassFigures = \figuremode {
-%
-% }
+ThirdCembaloR = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 6/8 \tempoThird
+		\partial 8 r8
+		R2.*7 %7
+		r4 r8 r4 e8
+		c'16 a h a h a d a h a h a
+		e' a, h a h a f' a, h a h a %10
+		e' a, a' g f e f e d c h a
+		gis h e h gis e e'4 e,8
+		c'16 a h a h a d a h a h a
+		e' a, h a h a f' a, h a h a
+		e' a, a' g f e f d c h a gis %15
+		a c e, a c, e a,4 r8
+		R2.*3
+		r4 r8 r4 g''8 %20
+		<c c,>4. q
+		q << { d,4~ d16.( e64 f) } \\ { g,4. } >>
+		e'16 g f e d c a' g f e d c
+		h d c h a g d' c h a g f
+		e g f e d c g' f e d c b %25
+		a c a' c, a' c, a c a' c, a' c,
+		a c a' c, a' c, a c a' c, a' c,
+		g h g' h, g' h, g h g' h, g' h,
+		a c fis c fis c a c fis c fis c
+		h d f d f d h d f d f d %30
+		g, c es c es c g c es c es c
+		as c es c es c as c es c es c
+		as8-! c-! es-! fis! c'-! es-!
+		fis c'16\prall h! c d es8 \appoggiatura d32 c16 h c d
+		\appoggiatura f32 es8 d16 c h c r c b as g fis %35
+		g8-! g-! r16 h,! c g <h d> g <c es> g
+		<h d>8 <g h g'>-!\arpeggio r16 h c g <h d> g <c es> g
+		<h d>8 g'16[ d es c] h8 g'16[ d es c]
+		h8 <g h g'>\arpeggio g' g c16 g es c
+		\afterGrace g4\trill\fermata { fis32[ g a g fis g a h c d e! fis] g[ a g fis g a h c h a h c d h g8-!] } s8 r4 r8 %40
+		% g4\trill\fermata s8 r4 r8 %40
+		R2.*3
+		r4 r8 r4 e,8
+		c'16 gis a h c a d gis, a h c a %45
+		e' gis, a h c a f' gis, a h c a
+		e' a, a' g f e f e d c h a
+		gis h e h gis e e'4 r8
+		R2.*3 %51
+		r4 r8 r4 c8
+		\appoggiatura c16 c'4._( \grace d16 c8) b16 a g f
+		\appoggiatura e b'4._( \grace c16 b8) a16 g f e
+		\appoggiatura b' a8 g16 f e d c4( \scriptOut b8)\turn %55
+		a4 d16(\prall c) c4-! c8
+		\appoggiatura c16 c'4._( \grace d16 c8) b16 a g f
+		\appoggiatura e b'4._( \grace c16 b8) a16 g f e
+		a f e d c b a d c b a g
+		f c a' f c' a f4 c8 %60
+		es16 c f es c es d b f' d b d
+		es c f es c es d f b8 r
+		c16 a d c a c b d g d b g
+		c a d c a c b d g8 r
+		b,16 g c b g b a c f8 r %65
+		d16 c b a g f e d c b a g
+		\lh \voiceOne a c f c a f e g c b a g
+		a c f c a f c4 \rh \oneVoice c''8
+		\appoggiatura c16 c'4._( \grace d16 c8) b16 a g f
+		\appoggiatura e b'4._( \grace c16 b8) a16 g f e %70
+		\appoggiatura b' a8 g16 f e d c4( \scriptOut b8)\turn
+		a4 d16(\prall c) c4-! c8
+		\appoggiatura c16 c'4._( \grace d16 c8) b16 a g f
+		\appoggiatura e b'4._( \grace c16 b8) a16 g f e
+		a f e d c b a d c b a g %75
+		f c a' f c' a f'4 r8
+		R2.*7 %83
+		r4 r8 r4 f8
+		f(\prall e f) a( g f) %85
+		e( f fis g e c')
+		e,( d\prall c h ais e')
+		dis( g fis\prall e dis h')
+		d,(\prall cis d f e d)
+		c(\prall h c e c a) %90
+		f'( e\prall d c h\prall a)
+		gis16 h gis e d'[ h] c e a e c a
+		gis h gis e d'[ h] c e a e c a
+		<gis h e>4 r16 gis' a e <gis h> e <a c> e
+		<gis h>8 <gis h e>-! r16 gis a e <gis h> e <a c> e %95
+		<gis h>8 <gis h e>-! r16 gis a e <gis h> e <a c> e
+		<gis h>8  e'16[ h c a] gis8 e'16[ h c a]
+		gis h e h gis e h' gis e h gis'[ e]
+		h gis e'[ h gis e] h' gis e h gis'[ e]
+		\lh \voiceOne h gis e'[ h gis e] r4 \rh \oneVoice e'8 %100
+		c'16 gis a h c a d gis, a h c a
+		e' gis, a h c a f' gis, a h c a
+		e' a, a' g! f e f e d c h a
+		gis h e h gis e <e gis h e>4 r8
+		R2.*3 %107
+		r4 r8 r4 e8
+		\key a \major \time 12/8 \tempoThirdB \partial 2. cis'8 d e d e fis
+		e fis g fis gis a gis a h a h cis %110
+		h a gis fis e d cis d e d e fis
+		e fis g fis gis a e d cis h a gis
+		a cis e cis a e r2*3/2
+		R1.*3 %116
+		r4 r8 r4 e'8 cis' h a e' cis a
+		h gis e h e gis h a gis e' h gis
+		a fis dis a dis fis a gis fis cis' h a
+		gis fis e e' h gis cis h a gis fis e %120
+		dis fis h h,4 h8 <h h'>4. q
+		q~ q4 a'8 gis h a gis fis e
+		dis fis e dis cis h <h h'>4. q
+		q~ q4 a'8 gis h a gis fis e
+		dis fis e dis cis h <h h'>4. q %125
+		<cis cis'> <dis dis'> <e e'> q
+		q~ q4 h'8 cis h a gis fis e
+		dis cis h a gis fis e gis h e h gis
+		e4 r8 r4 e'8 g e cis e cis ais
+		h d! fis cis e fis d fis h, ais cis e %130
+		d fis h fis d h gis'! h, cis d cis h
+		a! cis a fis a cis gis cis gis eis gis h
+		a cis a fis a cis d a h c h a
+		h d h g g' fis e h cis d cis h
+		cis e cis a cis e a e fis g fis e %135
+		fis e d a' g fis h a g fis e d
+		d4. cis4 a8 <a a'>4. q
+		q~ q4 g'8 fis a g fis e d
+		cis e d cis h a <a a'>4. q
+		q~ q4 g'8 fis a g fis e d %140
+		cis e d cis h a <a a'>4. q
+		<h h'> <cis cis'> <d d'> q
+		q~ q4 a'8 h a g fis e d
+		cis h a g fis e d fis a d a fis
+		d4 r8 r4 r8 r2*3/2 %145
+		r4 r8 r4 fis'8 h cis d cis d e
+		d4. r4 r8 r2*3/2
+		r4 r8 r4 gis,!8 a cis e h gis e
+		cis'4 r8 r4 r8 r2*3/2
+		R1. %150
+		r4 r8 r4 e,,8 cis' d e d e fis
+		e fis g fis gis a gis a h a h cis
+		h a gis fis e d r2*3/2
+		R1.
+		r4 r8 cis' h a e' cis a d h gis %155
+		a gis fis e d cis h fis' e d cis h
+		a4 r8 cis' h a e' cis a d h gis
+		a gis fis e d cis h fis' e d cis h
+		a cis e gis, h d cis e a gis h d
+		cis4 r8 r4 r8 <a cis, a>4 r8 r4 r8 %160
+		r e, a cis a cis e cis e a e a
+		cis a cis e cis a cis a cis e cis a
+		e2. h'\upprall
+		a4 r8 r4 r8 r2*3/2
+		R1.*2 %166
+		R1.\fermata \bar "|." %167 FINIS
+	}
+}
+
+ThirdCembaloL = {
+	\relative c {
+		\clef bass
+		\key a \minor \time 6/8 \tempoThird
+		\partial 8 r8
+		a'8\fE r r a r r
+		a r r a r r
+		a, c a d f d
+		e4 r8 e16 f e d c h
+		a8 r r a' r r %5
+		a r r a r r
+		a, c a d e e,
+		a' e c a4 r8
+		<a a'>4 r8 <h h'>4 r8
+		<c c'>4 r8 <d d'>4 r8 %10
+		c8 a c d f d
+		e4 r8 e16 f e d c h
+		a4 r8 <h h'>4 r8
+		<c c'>4 r8 <d d'>4 r8
+		c8 a c d e e, %15
+		a e c a4 r8
+		r8 c'' h a g f
+		e d c h a g
+		c d e f d f
+		g4 r8 g16 a g f e d %20
+		c8 c' h a g f
+		e d c h a g
+		c4. <f f,>
+		<g g,> <h, h,>
+		<c c,> <e e,> %25
+		<f f,> q
+		<fis fis,> q
+		g,8 g g g g g
+		g g g g g g
+		g g g g g g %30
+		g g g g g g
+		as2.~
+		as4 r8 r4 r8
+		R2.
+		r4 r8 <as as'>4. %35
+		g8 g' f! es d c
+		g g' f es d c
+		g h'! c d h c
+		d g, f es c es
+		<g g,>4\fermata r8 r4 r8 %40
+		e'!8\ff d c h a g
+		c h c a g f
+		e c e f g g,
+		c g e c4 r8
+		<a' a'>4 r8 <h h'>4 r8 %45
+		<c c'>4 r8 <d d'>4 r8
+		c a c d f d
+		e4 r8 e16 f e d c h
+		a8 r r a' r r
+		a r r a r r %50
+		a, c a d e e,
+		a' e c a4 r8
+		a' c f a, c a
+		g b e g, b g
+		f a f e g c %55
+		f, c' b a c f
+		a, c f a, c a
+		g b e g, b g
+		f a b c4 c,8
+		f a, c f4 r8 %60
+		a, c f b, d f
+		a, c f b, r16 b' a g
+		fis8 a d g, b d
+		fis, a d g, r16 a g f
+		e8 g c f, r16 f, g a %65
+		b4 r8 c4 r8
+		\voiceTwo f, a f c' e, c'
+		f, a f c4 \oneVoice r8
+		a'' c f a, c a
+		g b e g, b g %70
+		f a c e, g c
+		f, c' b a c f
+		a, c f a, c a
+		g b e g, b g
+		f a b c4 c,8 %75
+		f a, c <f f,>4 r8
+		d\ff r r d r r
+		d r r d r r
+		d f d g, b g
+		a4 r8 a'16 b a g f e %80
+		d8 r r d r r
+		d r r d r r
+		d f d g a a,
+		d f a d,4 r8
+		d'4. h! %85
+		c!4 r8 r4 r8
+		<c c,>2.
+		<h h,>4 r8 r4 r8
+		<a h>4. <gis h>
+		a c, %90
+		d dis
+		e e
+		e e
+		e8 e' d c h a
+		e e' d c h a %95
+		e e' d c h a
+		e gis a h gis a
+		e2.
+		e,4 r8 r4 r8
+		\voiceTwo r4 r8 e4 \oneVoice r8 %100
+		<a a'>4 r8 <h h'>4 r8
+		<c c'>4 r8 <d d'>4 r8
+		c a c d f d
+		e4 r8 e16 f e d c h
+		a8 r r a' r r %105
+		a r r a r r
+		a, c a d e e, \noBreak
+		a' e c a4 r8 \bar "|"
+		\key a \major \time 12/8 \tempoThirdB \newSpacingSection
+			\partial 2. a4. h \noBreak
+		cis d e fis %110
+		gis2. a,4. h
+		cis d e e,
+		a4 r8 r4 r8 a4.\ff h
+		cis d e fis
+		gis2. a,4. h %115
+		cis d e e,
+		a4 r8 r4 r8 a'4. a
+		gis4 r8 r4 r8 gis4. gis
+		fis4 r8 r4 r8 fis4. fis
+		e gis a ais %120
+		h4 r8 h,8 h' a gis h a gis fis e
+		dis fis e dis cis h h'4. <h h,>
+		q~ q4 a8 gis h a gis fis e
+		dis fis e dis cis h h'4. <h h,>
+		q~ q4 a8 gis h a gis fis e %125
+		a gis fis h a gis cis e dis cis h a
+		gis h a gis fis e a4. ais
+		h h, e8 h gis e gis h
+		e4 r8 r4 r8 r4 r8 e4.
+		d! ais h fis %130
+		h r4 r8 eis4. eis
+		fis a eis cis
+		<fis fis,> r4 r8 fis4. fis
+		g r4 r8 gis4. gis
+		a r4 r8 cis4. cis %135
+		d fis, g gis
+		a a4 g8 fis a g fis e d
+		cis e d cis h a a'4. <a a,>
+		q~ q4 g8 fis a g fis e d
+		cis e d cis h a a'4. <a a,> %140
+		q~ q4 g8 fis a g fis e d
+		g fis e a g fis h d cis h a g
+		fis a g fis e d g4. gis
+		a a, d8 a fis d fis a
+		d4 r8 r4 r8 d' cis h ais gis fis %145
+		h4 r8 r4 h8 d4. ais
+		h4 r8 r4 d8 cis h a! gis fis e
+		a4 r8 r4 h8 cis4. gis
+		a4 r8 r4 cis,8\ff d4. e
+		d ais h d %150
+		e e4 r8 a,4. h
+		cis d e fis
+		gis2. a,4.\ff h
+		cis d e e,
+		a4 r8 r4 r8 r4 r8 e'4. %155
+		fis cis d e
+		a,4 r8 r4 r8 r4 r8 e'4.
+		fis cis d e
+		a, e' a e
+		a,8 a a a' a a fis fis fis dis dis dis %160
+		e4 r8 r4 r8 r2*3/2
+		R1.
+		r2*3/2 <e e,>2.
+		a,8 h cis h cis d cis d e d e fis
+		e fis gis fis gis a gis a h a h cis %165
+		h cis d cis h a d,4-! r8 e4-! r8
+		a,4 r8 r4 r8 r2*3/2\fermata \bar "|." %167 FINIS
+	}
+}
+
+ThirdBassFigures = \figuremode {
+	r8
+	<3 1>4. <[4] 2>
+	<5 3> <6 4>
+	<5 3>8 <6>4 r8 <6>4
+	<_+>2.
+	<3 1>4. <4 2> %5
+	<5 3> <6 4>
+	<5 3>8 <6>4. <6 4>8 <5 _+>
+	r2.*9 %16
+	r4. <6>
+	q q
+	r r4 q8
+	r2.*21 %40
+	<6>4. q
+	r q
+	q r8 <6 4> <5 3>
+	r2.*5 %48
+	<3 1>4. <4 2>
+	<5 3> <6 4> %50
+	<5 3>8 <6>4. <6 4>8 <5 _+>
+	r2.*25 %76
+	<3 1>4. <4 2>
+	<5 3> <6- 4>
+	<5 3>8 <6>4 <_->8 <6> <6 5 _->
+	<_+>2. %80
+	<3 1>4. <4 2>
+	<5 3> <6- 4>
+	<5 3>8 <6>4 <_->8 <6 4> <5 _+>
+	r2.*21 %104
+	<3 1>4. <4 2> %105
+	<5 3> <6 4>
+	<5 3>8 <6>4. <6 4>8 <5 _+>
+	r2.
+	r2.
+	r1.*3 %112
+	r2. r4. <7>
+	<6>2. r4. <7>
+	<6 5>2. r4. <7> %115
+	<6>2. <6 4>4. <5 3>
+	r1.*28 %144
+	r2. <6>4. q %145
+	r1.
+	r4. r4 <4 2>8 <6>4. q
+	r1.
+	r2. r4. <4+ 2>
+	<6> q r <6> %150
+	<4>4. <_+> r2.
+	r1.
+	r2. r4. <7>
+	<6>2. <6 4>4. <5 3>
+	r1.*9 %163
+	r4. <7> <6>2.
+	r4. <7> <6>2. %165
+	<6>4. q2. <7>4.
+	r1. %167 FINIS
+}

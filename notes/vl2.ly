@@ -282,3 +282,144 @@ SecondViolinoII = {
 		cis2.\fermata \bar "|." %89 finis
 	}
 }
+
+ThirdViolinoII = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 6/8 \tempoThird
+		\partial 8 r8
+		a'8\fE r r h r r
+		c r r d r r
+		c a c f16 e d c h a
+		gis h e h gis e e'4 r8
+		a, r r h r r %5
+		c r r d r r
+		c e, c'16 a f' d c h a gis
+		a8 e c a4 r8
+		R2.*7 %15
+		r4 r8 r4 c'8\ff
+		<c c'>4. q
+		q <d g,>4~ d16.( e64 f)
+		e16 g f e d c a' g f e d c
+		h c d c h a g4 r8 %20
+		R2.*6 %26
+		c,4-!~\f c2\p
+		h2.
+		a
+		d %30
+		c~
+		c~
+		c4 r8 r4 r8
+		R2.*2 %35
+		g2.~\pp
+		g
+		g8-! h!-! c-! d-! h-! c-!
+		g2.~
+		g8 r r r4\fermata g'8\ff %40
+		c4. <d g,>4~ d16.( e!64 f)
+		e4. f4~ f16.( g64 a)
+		g16 f g e f g a f e d c h
+		c c g g e e c4 r8
+		R2.*4 %48
+		a'8\ff r r h r r
+		c r r d r r %50
+		c e,16 e' c a f' d c h a gis
+		a a e e c c a4 r8
+		c2.~\pp
+		c~
+		c8 r r r4 r8 %55
+		R2.
+		c2.~
+		c~
+		c8 r r r4 r8
+		R2. %60
+		es4. d
+		es d8 r16 d-!\f c-! b-!
+		c4.\p b
+		c b8 r16 c'-!\f b-! a-!
+		g4.\p f8 r16 a-!\f b-! c-! %65
+		f,4-! r8 e4-! r8
+		R2.*2
+		c2.~\pp
+		c~ %70
+		c8 r r r4 r8
+		R2.
+		c2.~
+		c~
+		c8 r r r4 r8 %75
+		r4 r8 r4 a8\ff
+		d r r e r r
+		f r r g r r
+		f d'16 c b a b a g f e d
+		cis e a e cis a a'4 r8 %80
+		d, r r e r r
+		f r r g r r
+		f a,16 a' f d b' g f e d cis
+		d d f f a a d,4 r8
+		R2.*2 %86
+		c!2.\p
+		h!4 r8 r4 r8
+		R2.*2 %90
+		r4 r8 a'4.
+		gis a
+		gis a
+		gis4 r8 r4 r8
+		R2.*2 %96
+		e2.~
+		e~
+		e4 r8 r4 r8
+		R2. %100
+		a8\pp r r a r r
+		a r r a r r
+		R2.*2
+		a8\ff r r h r r %105
+		c r r d r r
+		c e,16 e' c a f' d c h a gis \noBreak
+		a a e e c c a4 r8 \bar "|"
+		\key a \major \time 12/8 \tempoThirdB \newSpacingSection
+			\partial 2. r2*3/2 \noBreak
+		R1.*3 %112
+		r4 r8 r4 e'8\ff cis' d e d e fis
+		e fis g fis gis a gis a h a gis fis
+		h a gis fis e d cis d e d e fis %115
+		e fis g fis gis a e d cis h a gis
+		a e cis a4 r8 e''4\pE r8 e4 r8
+		e4 r8 r4 r8 e4 r8 e4 r8
+		dis4 r8 r4 r8 dis4 r8 dis4 r8
+		e4 r8 e4 r8 e2. %120
+		dis4 r8 r4 r8 r2*3/2
+		R1.*7 %128
+		r2*3/2 ais2.\p
+		h4.( cis h ais) %130
+		h4 r8 r4 r8 h4.~\f h\p
+		a!2. h
+		a4 r8 r4 r8 c2.
+		h4 r8 r4 r8 d2.
+		cis!4 r8 r4 r8 r4 r8 e4-! r8 %135
+		d4-! r8 d4-! r8 d4-! r8 gis,,4-! r8
+		a4 r8 r4 r8 r2*3/2
+		R1.*7 %144
+		r4 r8 r4 fis'8\ff h4-! r8 cis4-! r8 %145
+		d4-! r8 r4 r8 r2*3/2
+		r4 r8 r4 gis,!8 a4-! r8 h4-! r8
+		cis4-! r8 r4 r8 r2*3/2
+		r4 r8 r4 e,8 fis e d cis h ais
+		h cis d cis d e d fis d h h' a! %150
+		a4.( gis4) r8 r2*3/2
+		R1.
+		r4 r8 r4 e,8\ff cis' d e d e fis
+		e fis g fis gis a e d cis h a gis
+		a4 r8 r4 r8 r2*3/2 %155
+		r4 r8 e''4.\p d h
+		cis4 r8 r4 r8 r2*3/2
+		r4 r8 e4. d h
+		cis4 r8 r4 r8 r2*3/2
+		a8\ff cis cis cis cis cis cis a' a a a a %160
+		a4 r8 r4 r8 r2*3/2
+		R1.*2
+		a,,8\ff h cis h cis d cis d e d e fis
+		e fis gis fis gis a gis a h a h cis %165
+		h cis d cis h a d,4-! r8 gis'4-! r8
+		a4-! r8 r4 r8 r2*3/2\fermata \bar "|." %167 FINIS
+	}
+}
