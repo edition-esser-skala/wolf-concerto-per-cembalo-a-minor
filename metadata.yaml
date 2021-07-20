@@ -1,0 +1,17 @@
+composer: Wolf, Ernst Wilhelm
+title: Concerto per Cembalo
+id: (D-B Mus.ms. 23287/8)
+genre: concerto
+scoring: 2 ob, 2 vl, vla, b, cemb
+sources:
+  1:
+    siglum: D-B
+    shelfmark: Mus.ms. 23287/8
+    type: manuscript copy
+    date: ca. 1800
+    rism: 452522032
+    url: http://resolver.staatsbibliothek-berlin.de/SBB0001973000000000
+github: wolf-concerto-per-cembalo-a-minor
+imslp: Harpsichord_Concerto_No.1_in_A_minor_(Wolf%2C_Ernst_Wilhelm
+notes:
+
