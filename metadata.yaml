@@ -1,7 +1,10 @@
-composer: Wolf, Ernst Wilhelm
+composer:
+  last: Wolf
+  first: Ernst Wilhelm
 title: Concerto per Cembalo
 genre: concerto
 scoring: 2 ob, 2 vl, vla, b, cemb
+license: cc-by-nc-sa-4.0
 sources:
   B1:
     siglum: D-B
@@ -9,5 +12,6 @@ sources:
     date: ca. 1800
     rism: 452522032
     url: http://resolver.staatsbibliothek-berlin.de/SBB0001973000000000
+    license: CC BY-NC-SA 4.0
     principal: true
 imslp: Harpsichord_Concerto_No.1_in_A_minor_(Wolf%2C_Ernst_Wilhelm)
